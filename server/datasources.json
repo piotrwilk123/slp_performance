@@ -12,6 +12,7 @@
     "name": "mssql",
     "user": "IGTUser",
     "connector": "mssql",
+	"requestTimeout" : 90000,
 	"options": {
 		"encrypt": true
 	}	
