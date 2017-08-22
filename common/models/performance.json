@@ -81,7 +81,7 @@
     "vltId": {
 
       "type": "Number",
-	  "id": true
+	  "id": true,
 
       "required": true,
 
