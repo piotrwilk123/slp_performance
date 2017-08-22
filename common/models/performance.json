@@ -1,6 +1,7 @@
 {
   "name": "PERFORMANCE",
   "base": "PersistedModel",
+    "idInjection": false,
   "options": {
 
     "idInjection": false,
