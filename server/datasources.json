@@ -7,7 +7,7 @@
     "host": "abiapl.database.windows.net",
     "port": 1433,
     "url": "",
-    "database": "dbo", 
+    "database": "POC_PDS", 
     "password": "IGTAzurePoC!123",
     "name": "mssql",
     "user": "IGTUser",
