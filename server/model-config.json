@@ -35,7 +35,7 @@
     "dataSource": "db",
     "public": false
   },
-  "PERFOMRANCE": {
+  "PERFORMANCE": {
     "dataSource": "mssql",
     "public": true
   }
