@@ -1,0 +1,1222 @@
+{
+  "name": "PERFORMANCE",
+  "base": "PersistedModel",
+  "options": {
+
+    "idInjection": false,
+
+    "mssql": {
+
+      "schema": "Flat",
+
+      "table": "Performance"
+
+    }
+
+  },
+
+  "properties": {
+
+    "businessDate": {
+
+      "type": "Date",
+
+      "required": false,
+
+      "length": null,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "business_date",
+
+        "dataType": "date",
+
+        "dataLength": null,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "jurId": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "jur_id",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "vltId": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "VLT_ID",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "gameId": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "GAME_ID",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "monTime": {
+
+      "type": "Date",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "MON_TIME",
+
+        "dataType": "datetime2",
+
+        "dataLength": null,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodStartTime": {
+
+      "type": "Date",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "PERIOD_START_TIME",
+
+        "dataType": "datetime2",
+
+        "dataLength": null,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodGamesPlayed": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "PERIOD_GAMES_PLAYED",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodGamesWon": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "PERIOD_GAMES_WON",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodCashPlayed": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 19,
+
+      "scale": 4,
+
+      "mssql": {
+
+        "columnName": "PERIOD_CASH_PLAYED",
+
+        "dataType": "decimal",
+
+        "dataLength": null,
+
+        "dataPrecision": 19,
+
+        "dataScale": 4,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodCashWon": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 19,
+
+      "scale": 4,
+
+      "mssql": {
+
+        "columnName": "PERIOD_CASH_WON",
+
+        "dataType": "decimal",
+
+        "dataLength": null,
+
+        "dataPrecision": 19,
+
+        "dataScale": 4,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "emissionId": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "EMISSION_ID",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "emissionCdc": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "EMISSION_CDC",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodTktSold": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "PERIOD_TKT_SOLD",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodWinTktSold": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "PERIOD_WIN_TKT_SOLD",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodCashInPlayed": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 19,
+
+      "scale": 4,
+
+      "mssql": {
+
+        "columnName": "PERIOD_CASH_IN_PLAYED",
+
+        "dataType": "decimal",
+
+        "dataLength": null,
+
+        "dataPrecision": 19,
+
+        "dataScale": 4,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodCashWonProg": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 19,
+
+      "scale": 4,
+
+      "mssql": {
+
+        "columnName": "PERIOD_CASH_WON_PROG",
+
+        "dataType": "decimal",
+
+        "dataLength": null,
+
+        "dataPrecision": 19,
+
+        "dataScale": 4,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodCashWonExternal": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 19,
+
+      "scale": 4,
+
+      "mssql": {
+
+        "columnName": "PERIOD_CASH_WON_EXTERNAL",
+
+        "dataType": "decimal",
+
+        "dataLength": null,
+
+        "dataPrecision": 19,
+
+        "dataScale": 4,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodCashPlayedProg": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 19,
+
+      "scale": 4,
+
+      "mssql": {
+
+        "columnName": "PERIOD_CASH_PLAYED_PROG",
+
+        "dataType": "decimal",
+
+        "dataLength": null,
+
+        "dataPrecision": 19,
+
+        "dataScale": 4,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodTotCoinOutCredits": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "PERIOD_TOT_COIN_OUT_CREDITS",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "periodTotJackpotCredits": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "PERIOD_TOT_JACKPOT_CREDITS",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "rcvdCentral": {
+
+      "type": "Date",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "RCVD_CENTRAL",
+
+        "dataType": "datetime2",
+
+        "dataLength": null,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "testFlag": {
+
+      "type": "Number",
+
+      "required": true,
+
+      "length": null,
+
+      "precision": 5,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "TEST_FLAG",
+
+        "dataType": "smallint",
+
+        "dataLength": null,
+
+        "dataPrecision": 5,
+
+        "dataScale": 0,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "earlyPerfectLate": {
+
+      "type": "String",
+
+      "required": true,
+
+      "length": 1,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "EARLY_PERFECT_LATE",
+
+        "dataType": "char",
+
+        "dataLength": 1,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "NO"
+
+      }
+
+    },
+
+    "vltDesc": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 16,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "vlt_desc",
+
+        "dataType": "varchar",
+
+        "dataLength": 16,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "modelId": {
+
+      "type": "Number",
+
+      "required": false,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "model_id",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "serialNo": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 16,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "serial_no",
+
+        "dataType": "varchar",
+
+        "dataLength": 16,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "serialNo2": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 16,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "serial_no2",
+
+        "dataType": "varchar",
+
+        "dataLength": 16,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "serialNo3": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 16,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "serial_no3",
+
+        "dataType": "varchar",
+
+        "dataLength": 16,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "clientId": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 50,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "client_id",
+
+        "dataType": "varchar",
+
+        "dataLength": 50,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "smokingSecFlag": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 1,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "smoking_sec_flag",
+
+        "dataType": "char",
+
+        "dataLength": 1,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "retNum": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 6,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "ret_num",
+
+        "dataType": "char",
+
+        "dataLength": 6,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "retDesc": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 50,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "ret_desc",
+
+        "dataType": "varchar",
+
+        "dataLength": 50,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "addr1": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 50,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "addr1",
+
+        "dataType": "varchar",
+
+        "dataLength": 50,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "addr2": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 50,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "addr2",
+
+        "dataType": "varchar",
+
+        "dataLength": 50,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "city": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 25,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "city",
+
+        "dataType": "varchar",
+
+        "dataLength": 25,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "state": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 25,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "state",
+
+        "dataType": "varchar",
+
+        "dataLength": 25,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "zip": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 10,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "zip",
+
+        "dataType": "varchar",
+
+        "dataLength": 10,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "themeOid": {
+
+      "type": "Number",
+
+      "required": false,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "theme_oid",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "paytableOid": {
+
+      "type": "Number",
+
+      "required": false,
+
+      "length": null,
+
+      "precision": 10,
+
+      "scale": 0,
+
+      "mssql": {
+
+        "columnName": "paytable_oid",
+
+        "dataType": "int",
+
+        "dataLength": null,
+
+        "dataPrecision": 10,
+
+        "dataScale": 0,
+
+        "nullable": "YES"
+
+      }
+
+    },
+
+    "paytableId": {
+
+      "type": "String",
+
+      "required": false,
+
+      "length": 32,
+
+      "precision": null,
+
+      "scale": null,
+
+      "mssql": {
+
+        "columnName": "paytable_id",
+
+        "dataType": "char",
+
+        "dataLength": 32,
+
+        "dataPrecision": null,
+
+        "dataScale": null,
+
+        "nullable": "YES"
+
+      }
+
+    }
+
+  }
+
+}
