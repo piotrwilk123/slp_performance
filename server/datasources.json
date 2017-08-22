@@ -1,0 +1,19 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mssql": {
+    "host": "abiapl.database.windows.net",
+    "port": 1433,
+    "url": "",
+    "database": "dbo", 
+    "password": "IGTAzurePoC!123",
+    "name": "mssql",
+    "user": "IGTUser",
+    "connector": "mssql",
+	"options": {
+		"encrypt": true
+	}	
+  }
+}
